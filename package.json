@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node server.js",
     "build": "echo No build steps required",
-    "deploy": "deploy": "aws s3 sync dist/ s3://newnodefe"
+    "deploy": "aws s3 sync dist/ s3://newnodefe"
   },
   "author": "Your Name",
   "license": "MIT",
