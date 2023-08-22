@@ -4,12 +4,15 @@
   "description": "A simple Node.js frontend application",
   "scripts": {
     "start": "node server.js",
-    "build": "echo No build steps required",
-    "deploy": "aws s3 sync dist/ s3://newnodefe"
+    "build": "webpack --config webpack.config.js"
   },
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
   }
 }
